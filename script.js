@@ -20,8 +20,6 @@ function getPokemon(e) {
 const name = document.querySelector("#pokemonName").value;
 const pokemonName = lowerCaseName(name);
 
-https://pokeapi.co/api/v2/pokemon/${pokemonName}
-
     
 fetch(`https://pokeapi.co/api/v2/pokemon-species/${pokemonName}`)
 .then((response) => response.json())
