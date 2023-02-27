@@ -6,7 +6,7 @@
   }
 
   @font-face {
-    src: url('./Resources/PokemonGb-RAeo.ttf');
+    src: url("./Resources/PokemonGb-RAeo.ttf");
     font-family: PokemonGb-RAeo;
   }
 
